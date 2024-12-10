@@ -1,0 +1,42 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #19191a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer .social-links a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  color: #007bff;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+  color: #777;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .social-links a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}

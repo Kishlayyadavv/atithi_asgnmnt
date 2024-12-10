@@ -1,0 +1,14 @@
+.custom-list {
+  list-style-type: none;
+  padding: 0;
+  color:blanchedalmond;
+}
+
+.custom-list-item {
+  padding: 8px;
+  border-bottom: 2px solid #f5f3f3;
+}
+
+.custom-list-item:last-child {
+  border-bottom: none;
+}
